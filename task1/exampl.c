@@ -1,2 +1,7 @@
-// Make a file with filename <roll_number>.c
-// Write ad simple prog to sum 2 inputs.
+#include<stdio.h>
+int main(){
+    int a , b;
+    scanf("%d %d",&a,&b);
+    int sum = a +b;
+    printf("%d", sum);
+}
